@@ -22,18 +22,35 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.fintrack.app",
+      "versionCode": 1
     },
     "web": {
       "bundler": "metro",
-      "output": "static",
+      "output": "single",
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "react-native-google-mobile-ads",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "포트폴리오 스크린샷을 읽기 위해 사진 라이브러리에 접근합니다.",
+          "cameraPermission": "포트폴리오 스크린샷을 촬영하기 위해 카메라에 접근합니다."
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "7741eac4-239b-4cb2-b2c0-198db908625a"
+      }
+    },
+    "owner": "trendhunt"
   }
 }

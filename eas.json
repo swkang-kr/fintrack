@@ -1,0 +1,36 @@
+{
+  "cli": {
+    "version": ">= 16.0.0"
+  },
+  "build": {
+    "preview": {
+      "env": {
+        "EXPO_PUBLIC_API_BASE_URL": "https://fintrack-api.trendhunt.net",
+        "EXPO_PUBLIC_SUPABASE_URL": "https://rexufrtlzfwssrdjgjyv.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJleHVmcnRsemZ3c3NyZGpnanl2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzEwODE2NDAsImV4cCI6MjA4NjY1NzY0MH0.hPAECx9XtwVOWGETjST1on-KxQT203T2OLH1aKhN0Xc",
+        "ADMOB_ANDROID_APP_ID": "ca-app-pub-3940256099942544~3347511713",
+        "EXPO_PUBLIC_ADMOB_ANDROID_BANNER_ID": "ca-app-pub-3940256099942544/6300978111",
+        "EXPO_PUBLIC_ADMOB_IOS_BANNER_ID": "ca-app-pub-3940256099942544/2934735716"
+      },
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "production": {
+      "env": {
+        "EXPO_PUBLIC_API_BASE_URL": "https://fintrack-api.trendhunt.net",
+        "EXPO_PUBLIC_SUPABASE_URL": "https://rexufrtlzfwssrdjgjyv.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJleHVmcnRsemZ3c3NyZGpnanl2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzEwODE2NDAsImV4cCI6MjA4NjY1NzY0MH0.hPAECx9XtwVOWGETjST1on-KxQT203T2OLH1aKhN0Xc",
+        "ADMOB_ANDROID_APP_ID": "ca-app-pub-3940256099942544~3347511713",
+        "EXPO_PUBLIC_ADMOB_ANDROID_BANNER_ID": "ca-app-pub-3940256099942544/6300978111",
+        "EXPO_PUBLIC_ADMOB_IOS_BANNER_ID": "ca-app-pub-3940256099942544/2934735716"
+      },
+      "android": {
+        "buildType": "app-bundle"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
